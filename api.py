@@ -3,7 +3,7 @@ import mysql.connector
 import db_creator
 
 app = Flask(__name__)
-db=db_creator()
+db=db_creator.creator()
 
 # MySQL Configuration
 db_config = {
